@@ -2,23 +2,14 @@
 
 
 
-:root{
+:root {
     --light-blue: #C9E1E6;
-    --blue:#8BBCBC;
-    --gold:#B59323;
-    --white:#FCFCFC;
-    --grey:#524B4B;
-    --black:#272526;
+    --blue: #8BBCBC;
+    --gold: #B59323;
+    --white: #FCFCFC;
+    --grey: #524B4B;
+    --black: #272526;
 }
-
-/*Sektion 1 - blogintro*/
-
-.blog-intro {
-    background-color: var(--blue);
-    margin: 20px;
-    padding:30px;
-}
-
 
 h1 {
     font-family: 'Fredericka the Great';
@@ -29,6 +20,16 @@ h1 {
     color: var(--grey);
 }
 
+
+/*Sektion 1 - blogintro*/
+
+.blog-intro {
+    background-color: var(--blue);
+    margin: 20px;
+    padding: 30px;
+}
+
+
 h2 {
     font-family: 'El messiri';
     text-align: center;
@@ -37,7 +38,7 @@ h2 {
     margin: 0;
 }
 
-p{
+p {
     font-family: 'assistant';
     font-weight: 100;
     font-size: 20px;
@@ -81,31 +82,28 @@ p{
 
 
 
-h1{
-color: var(--grey);
-text-align: center;
-font-family:'Fredericka the Great', cursive;
+h1 {
+    color: var(--grey);
+    text-align: center;
+    font-family: 'Fredericka the Great', cursive;
 }
 
-p{
-color: var(--grey);
-}
 
 
 /* FORSIDE */
 
-.om-os{
+.om-os {
     background-color: var(--blue);
 }
+
 
 .om-os h2{
     text-align: center;
 
-}
 
-.ugens-kunstner{
-    
-}
+.om-os h2 {}
+
+.ugens-kunstner {}
 
 
 .plan{
@@ -114,4 +112,41 @@ color: var(--grey);
 
 .plan img{
     display: float;
+
+}
+  
+  
+  
+  
+ /*styling af artwork side*/
+body {
+    background-color: var(--white);
+}
+
+
+.artworks_sketches {
+    text-align: center;
+    color: var(--grey);
+    background-color: var(--blue);
+    padding: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.artworks_cartoon {
+    text-align: center;
+    color: var(--grey);
+    background-color: var(--light-blue);
+    padding: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.artworks_digital {
+    text-align: center;
+    color: var(--grey);
+    background-color: var(--blue);
+    padding: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
