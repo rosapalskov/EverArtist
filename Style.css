@@ -11,15 +11,6 @@
     --black: #272526;
 }
 
-/*Sektion 1 - blogintro*/
-
-.blog-intro {
-    background-color: var(--blue);
-    margin: 20px;
-    padding: 30px;
-}
-
-
 h1 {
     font-family: 'Fredericka the Great';
     font-size: 70px;
@@ -28,6 +19,16 @@ h1 {
     text-align: center;
     color: var(--grey);
 }
+
+
+/*Sektion 1 - blogintro*/
+
+.blog-intro {
+    background-color: var(--blue);
+    margin: 20px;
+    padding: 30px;
+}
+
 
 h2 {
     font-family: 'El messiri';
@@ -54,9 +55,6 @@ h1 {
     font-family: 'Fredericka the Great', cursive;
 }
 
-p {
-    color: var(--grey);
-}
 
 
 /* FORSIDE */
@@ -66,7 +64,28 @@ p {
 }
 
 
-/*styling af artwork side*/
+.om-os h2{
+    text-align: center;
+
+
+.om-os h2 {}
+
+.ugens-kunstner {}
+
+
+.plan{
+   background-color: var(--light-blue); 
+}
+
+.plan img{
+    display: float;
+
+}
+  
+  
+  
+  
+ /*styling af artwork side*/
 body {
     background-color: var(--white);
 }
@@ -97,13 +116,4 @@ body {
     padding: 15px;
     margin-left: 5px;
     margin-right: 5px;
-}
-
-.om-os h2 {}
-
-.ugens-kunstner {}
-
-
-.plan {
-    background-color: var(--light-blue);
 }
