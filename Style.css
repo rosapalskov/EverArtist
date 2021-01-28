@@ -1,24 +1,16 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
 
 
 
-:root{
+:root {
     --light-blue: #C9E1E6;
-    --blue:#8BBCBC;
-    --gold:#B59323;
-    --white:#FCFCFC;
-    --grey:#524B4B;
-    --black:#272526;
+    --blue: #8BBCBC;
+    --gold: #B59323;
+    --white: #FCFCFC;
+    --grey: #524B4B;
+    --black: #272526;
 }
-
-/*Sektion 1 - blogintro*/
-
-.blog-intro {
-    background-color: var(--blue);
-    margin: 20px;
-    padding:30px;
-}
-
 
 h1 {
     font-family: 'Fredericka the Great';
@@ -29,6 +21,16 @@ h1 {
     color: var(--grey);
 }
 
+
+/*Sektion 1 - blogintro*/
+
+.blog-intro {
+    background-color: var(--blue);
+    margin: 20px;
+    padding: 30px;
+}
+
+
 h2 {
     font-family: 'El messiri';
     text-align: center;
@@ -37,7 +39,7 @@ h2 {
     margin: 0;
 }
 
-p{
+p {
     font-family: 'assistant';
     font-weight: 100;
     font-size: 20px;
@@ -118,32 +120,22 @@ p{
 }
 
 
-
-h1{
-color: var(--grey);
-text-align: center;
-font-family:'Fredericka the Great', cursive;
-}
-
-p{
-color: var(--grey);
-}
-
-
 /* FORSIDE */
 
-.om-os{
+.om-os {
     background-color: var(--blue);
 }
+
 
 .om-os h2{
     text-align: center;
 
 }
+.om-os h2 {
 
-.ugens-kunstner{
-    
 }
+
+.ugens-kunstner {}
 
 
 .plan{
@@ -152,4 +144,72 @@ color: var(--grey);
 
 .plan img{
     display: float;
+
 }
+  
+  
+  
+  
+ /*styling af artwork side*/
+body {
+    background-color: var(--white);
+}
+
+
+.artworks_sketches {
+    text-align: center;
+    color: var(--grey);
+    background-color: var(--blue);
+    padding: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.artworks_cartoon {
+    text-align: center;
+    color: var(--grey);
+    background-color: var(--light-blue);
+    padding: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+/*navigation*/
+
+.navbar img{
+    width: 200px;
+    height: 150px;
+}
+.navbar{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.navbar ul {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    list-style: none;
+}
+
+.navbar li a {
+    display: block;
+    text-decoration: none;
+    padding: 1rem;
+    font-family:'Optima';
+}
+
+.artworks_digital {
+    text-align: center;
+    color: var(--grey);
+    background-color: var(--blue);
+    padding: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
