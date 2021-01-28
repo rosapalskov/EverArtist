@@ -1,6 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;500;600;700&display=swap');
 
+
+/*FÆLLES*/ 
+*{margin: 0;}
+
+
+
+
 :root {
     --light-blue: #C9E1E6;
     --blue: #8BBCBC;
@@ -10,6 +17,7 @@
     --black: #272526;
 }
 
+
 h1 {
     font-family: 'Fredericka the Great';
     font-size: 70px;
@@ -18,6 +26,7 @@ h1 {
     text-align: center;
     color: var(--grey);
 }
+
 
 
 /*Sektion 1 - blogintro*/
@@ -139,28 +148,59 @@ img {
 
 .om-os h2 {
     text-align: center;
+    padding-top: 25px;
+    font-size: 60px;
+    
 
 }
 
-.om-os h2 {}
-
-.ugens-kunstner {}
-
-
-.plan {
-    background-color: var(--light-blue);
+.om-os p{
+    padding: 25px;
+    font-size: 30px;
 }
 
-.plan img {
-    display: float;
+
+.ugens-kunstner img {
+width: 500px;
+height: auto;
+float: left;
 
 }
+
+.ugens-kunstner p{
+    padding: 10px;
+    font-size: 30px;
+}
+
+
+.plan{
+   background-color: var(--light-blue);
+
+}
+
+.plan h2{
+    font-size: 45px;
+    text-align: center;
+}
+
+.plan p{
+    font-size: 30px;
+}
+
+.plan img{
+    align-items: right;
+    width: 500px;
+    height: auto;
+    float: right;
+    padding: 10px;
+}
+
 
 
 
 
 /*styling af artwork side*/
-body {
+body{
     background-color: var(--white);
 }
 
