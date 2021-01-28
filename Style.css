@@ -30,11 +30,28 @@ img{
     text-decoration: none;
     padding: 1rem;
 }
-.Feb h2{
+
+h1{
+    font-size: 100px;
 }
-.Feb,.Apr,.Mar{
+
+h2{
+    font-size: 80px;
+
+}
+
+h3{
+    font-size: 50px;
+}
+
+.Feb h2{
+
+}
+
+.Feb section,.Apr,.Mar{
     display: flex;
 }
+
 .Feb div,
 .Apr div{
    background-color: var(--blue); 
