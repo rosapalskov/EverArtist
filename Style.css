@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
-
-
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;500;600;700&display=swap');
 
 :root {
     --light-blue: #C9E1E6;
@@ -168,20 +167,38 @@ body {
 
 .artworks_sketches {
     text-align: center;
-    color: var(--grey);
+    font-family: 'El messiri';
+    color: var(--black);
     background-color: var(--blue);
     padding: 15px;
     margin-left: 5px;
     margin-right: 5px;
 }
 
+.tegne{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 10px;
+    justify-content: center;
+}
+
+.linie1art img{ 
+    padding: 15px;
+    width: 422px;
+    height: 400px;
+    
+}
+
 .artworks_cartoon {
     text-align: center;
-    color: var(--grey);
+    font-family: 'El messiri';
+    color: var(--black);
     background-color: var(--light-blue);
     padding: 15px;
     margin-left: 5px;
     margin-right: 5px;
+    margin-top: 50px;
 }
 
 /*navigation*/
@@ -218,9 +235,11 @@ body {
 
 .artworks_digital {
     text-align: center;
-    color: var(--grey);
+    font-family: 'El messiri';
+    color: var(--black);
     background-color: var(--blue);
     padding: 15px;
     margin-left: 5px;
     margin-right: 5px;
+    margin-top: 50px;
 }
