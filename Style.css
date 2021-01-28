@@ -1,24 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
 
 
-:root{
+
+:root {
     --light-blue: #C9E1E6;
-    --blue:#8BBCBC;
-    --gold:#B59323;
-    --white:#FCFCFC;
-    --grey:#524B4B;
+    --blue: #8BBCBC;
+    --gold: #B59323;
+    --white: #FCFCFC;
+    --grey: #524B4B;
+    --black: #272526;
 }
 
-/*styling af artwork side*/
-body{
-    background-color: var(--white);
+/*Sektion 1 - blogintro*/
+
+.blog-intro {
+    background-color: var(--blue);
+    margin: 20px;
+    padding: 30px;
 }
 
-h1{
+
+h1 {
+    font-family: 'Fredericka the Great';
+    font-size: 70px;
+    font-weight: 100;
+    color: var(--grey);
     text-align: center;
     color: var(--grey);
 }
 
-.artworks_sketches{
+h2 {
+    font-family: 'El messiri';
+    text-align: center;
+    font-size: 40px;
+    color: var(--black);
+    margin: 0;
+}
+
+p {
+    font-family: 'assistant';
+    font-weight: 100;
+    font-size: 20px;
+    line-height: 1.5em;
+    color: var(--black);
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+
+h1 {
+    color: var(--grey);
+    text-align: center;
+    font-family: 'Fredericka the Great', cursive;
+}
+
+p {
+    color: var(--grey);
+}
+
+
+/* FORSIDE */
+
+.om-os {
+    background-color: var(--blue);
+}
+
+
+/*styling af artwork side*/
+body {
+    background-color: var(--white);
+}
+
+
+.artworks_sketches {
     text-align: center;
     color: var(--grey);
     background-color: var(--blue);
@@ -27,7 +81,7 @@ h1{
     margin-right: 5px;
 }
 
-.artworks_cartoon{
+.artworks_cartoon {
     text-align: center;
     color: var(--grey);
     background-color: var(--light-blue);
@@ -36,11 +90,20 @@ h1{
     margin-right: 5px;
 }
 
-.artworks_digital{
+.artworks_digital {
     text-align: center;
     color: var(--grey);
     background-color: var(--blue);
     padding: 15px;
     margin-left: 5px;
     margin-right: 5px;
+}
+
+.om-os h2 {}
+
+.ugens-kunstner {}
+
+
+.plan {
+    background-color: var(--light-blue);
 }
