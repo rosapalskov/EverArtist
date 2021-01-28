@@ -99,6 +99,7 @@ color: var(--grey);
 }
 
 .om-os h2{
+    text-align: center;
 
 }
 
@@ -109,4 +110,8 @@ color: var(--grey);
 
 .plan{
    background-color: var(--light-blue); 
+}
+
+.plan img{
+    display: float;
 }
