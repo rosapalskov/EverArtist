@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200;400;500;600;700;800&display=swap');
 
 
 /*FÆLLES*/ 
@@ -143,59 +144,118 @@ img {
 
 .om-os {
     background-color: var(--blue);
+    margin-top: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 30px;
 }
 
 
 .om-os h2 {
     text-align: center;
     padding-top: 25px;
-    font-size: 60px;
+    font-size: 40px;
     
 
 }
 
 .om-os p{
     padding: 25px;
-    font-size: 30px;
+    font-size: 20px;
+    font-family: 'Assistant';
+    font-weight: 200;
+    color: var(--black);
+    line-height: 1.5em;
 }
 
 
-.ugens-kunstner img {
-width: 500px;
-height: auto;
-float: left;
-
-}
-
-.ugens-kunstner p{
-    padding: 10px;
-    font-size: 30px;
+.card-wrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
 }
 
 
-.plan{
-   background-color: var(--light-blue);
 
-}
-
-.plan h2{
-    font-size: 45px;
-    text-align: center;
-}
-
-.plan p{
-    font-size: 30px;
-}
-
-.plan img{
-    align-items: right;
-    width: 500px;
+.front-img img{
+    width: 300px;
     height: auto;
-    float: right;
-    padding: 10px;
+    margin: 10px
+}
+
+.front-card{
+   
+   display: flex;
+   flex-direction: row;
+
+}
+
+.front-tekst h3{
+   text-align: center;
+   font-family: 'El messiri';
+   font-size: 40px;
+   color: var(--black);
+   margin: 30px;
 }
 
 
+
+
+
+
+
+.plan-wrapper{
+    display: flex;
+     
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end; 
+    background-color: var(--light-blue);
+}
+
+
+
+.plan-img img{
+    width: 300px;
+    height: auto;
+    margin: 10px;
+    float: right;
+    
+}
+
+.plan-tekst h3{
+    text-align: center;
+   font-family: 'El messiri';
+   font-size: 40px;
+   color: var(--black);
+   margin: 30px;
+
+}
+
+.plan-tekst p{
+    text-align: start;
+    
+}
+
+.front-plan{
+   
+   display: flex;
+   flex-direction: row;
+}
+
+.plan-knap a{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: var(--blue);
+    margin: 50px;
+    font-family: 'El messiri';
+    text-decoration: none;
+    color: var(--black);
+    border-radius: 5px;
+}
 
 
 
