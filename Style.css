@@ -38,6 +38,7 @@ h1 {
     background-color: var(--blue);
     margin: 20px;
     padding: 30px;
+    padding-bottom: 50px;
 }
 
 
@@ -143,6 +144,70 @@ img {
     margin: 25px auto;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
+
+/* Tilmeld formular*/
+
+input[type=text], select{
+    width: 20%;
+    padding: 12px;
+    padding-right: 5px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    margin-left: 5%;
+    font-family: 'assistant';
+    font-size: 20px;
+    background-color:var(--white);
+  }
+
+
+input[type=text], textarea{
+    width: 20%;
+    padding: 5px;
+    padding-right: 5px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    margin-left: 40%;
+    font-family: 'assistant';
+    background-color: var(--white);
+    font-size: 20px;
+  }
+
+  .formularcontainer {
+    border-radius: 8px;
+    background-color: var(--navtext);
+    padding: 5px;
+    margin-top: 20px;
+}
+
+.btncontainer2{
+    text-align: center;
+    margin: 20px;
+    margin-bottom: 50px;
+}
+
+.btn1 {
+    display: block;
+    background: var(--blue);
+    font-family: 'el messiri';
+    color: var(--black);
+    text-decoration: none;
+    padding: 8px 15px;
+    text-align: center;
+    border-radius: 10px;
+    max-width: 100px;
+    margin: 25px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
 
 
 /* FORSIDE */
@@ -430,6 +495,8 @@ font-family: 'Assistant';
     font-family: 'El messiri';
     text-align: center;
     font-size: 40px;
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
 
 .følg div{
