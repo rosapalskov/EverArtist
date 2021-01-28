@@ -150,19 +150,19 @@ body {
     position: relative;
     justify-content: space-between;
     align-items: center;
-    margin: 0;
-    padding: 0;
 }
 
-.navbar li {
+.navbar ul li {
     list-style: none;
 }
 
-.navbar li a {
+.navbar ul li a {
     display: block;
     text-decoration: none;
     padding: 1rem;
+    color: var(--grey);
     font-family:'Optima';
+    font-size: 24px;
 }
 
 .artworks_digital {
@@ -205,3 +205,30 @@ body {
 .Feb div p{
     font-size: 22px;
 }
+
+.måned{
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.BEAI p{
+margin-left: 30%;
+margin-right: 30%   ;
+}
+
+.BEAI h3{
+    font-family: 'Assistant';
+    text-align: center;
+}
+
+footer div{
+display: flex;
+justify-content: space-between;
+}
+
+footer div p{
+color: var(--gold);
+font-family: 'MinervaModern';
+}
+
+
