@@ -1,4 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;500;600;700&display=swap');
+
+
+/*FÆLLES*/ 
+*{margin: 0;}
+
 
 
 
@@ -11,6 +17,7 @@
     --black: #272526;
 }
 
+
 h1 {
     font-family: 'Fredericka the Great';
     font-size: 70px;
@@ -19,6 +26,7 @@ h1 {
     text-align: center;
     color: var(--grey);
 }
+
 
 
 /*Sektion 1 - blogintro*/
@@ -140,48 +148,97 @@ img {
 
 .om-os h2 {
     text-align: center;
+    padding-top: 25px;
+    font-size: 60px;
+    
 
 }
 
-.om-os h2 {}
-
-.ugens-kunstner {}
-
-
-.plan {
-    background-color: var(--light-blue);
+.om-os p{
+    padding: 25px;
+    font-size: 30px;
 }
 
-.plan img {
-    display: float;
+
+.ugens-kunstner img {
+width: 500px;
+height: auto;
+float: left;
 
 }
+
+.ugens-kunstner p{
+    padding: 10px;
+    font-size: 30px;
+}
+
+
+.plan{
+   background-color: var(--light-blue);
+
+}
+
+.plan h2{
+    font-size: 45px;
+    text-align: center;
+}
+
+.plan p{
+    font-size: 30px;
+}
+
+.plan img{
+    align-items: right;
+    width: 500px;
+    height: auto;
+    float: right;
+    padding: 10px;
+}
+
 
 
 
 
 /*styling af artwork side*/
-body {
+body{
     background-color: var(--white);
 }
 
 
 .artworks_sketches {
     text-align: center;
-    color: var(--grey);
+    font-family: 'El messiri';
+    color: var(--black);
     background-color: var(--blue);
     padding: 15px;
     margin-left: 5px;
     margin-right: 5px;
 }
 
+.tegne{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 10px;
+    justify-content: center;
+}
+
+.linie1art img{ 
+    padding: 15px;
+    width: 422px;
+    height: 400px;
+    
+}
+
 .artworks_cartoon {
     text-align: center;
-    color: var(--grey);
+    font-family: 'El messiri';
+    color: var(--black);
     background-color: var(--light-blue);
     padding: 15px;
     margin-left: 5px;
     margin-right: 5px;
+    margin-top: 50px;
 }
 
 /*navigation*/
@@ -201,26 +258,85 @@ body {
     position: relative;
     justify-content: space-between;
     align-items: center;
-    margin: 0;
-    padding: 0;
 }
 
-.navbar li {
+.navbar ul li {
     list-style: none;
 }
 
-.navbar li a {
+.navbar ul li a {
     display: block;
     text-decoration: none;
     padding: 1rem;
-    font-family: 'Optima';
+    color: var(--grey);
+    font-family:'Optima';
+    font-size: 24px;
 }
 
 .artworks_digital {
     text-align: center;
-    color: var(--grey);
+    font-family: 'El messiri';
+    color: var(--black);
     background-color: var(--blue);
     padding: 15px;
     margin-left: 5px;
     margin-right: 5px;
+    margin-top: 50px;
+}
+
+/*program*/
+
+.Feb section,.Apr section{
+    display: grid;
+    height: 17vh;
+    grid-template-columns: 0.1fr 1fr;
+    grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr;
+    grid-gap:0.5rem;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.Mar section{
+    display: grid;
+    height: 17vh;
+    grid-template-columns: 0.1fr 1fr;
+    grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr;
+    grid-gap:0.5rem;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.Feb div,.Apr div{
+    background-color: var(--blue)
+}
+.Mar div{
+    background-color: var(--light-blue);
+}
+.Feb div p{
+    font-size: 22px;
+}
+
+.måned{
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.BEAI p{
+margin-left: 30%;
+margin-right: 30%   ;
+}
+
+.BEAI h3{
+    font-family: 'Assistant';
+    text-align: center;
+}
+
+footer div{
+display: flex;
+justify-content: space-between;
+}
+
+footer div p{
+color: var(--gold);
+font-family: 'MinervaModern';
 }
