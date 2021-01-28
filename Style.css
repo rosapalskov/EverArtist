@@ -51,13 +51,39 @@ p {
 
 .blog-header {
     font-family: 'El messiri';
-    font-size: 20px;
+    font-size: 25px;
+    padding-top: 40px;
+    text-align: center;
 }
 
-.blog-img, img {
+.blog-img,
+img {
     width: 350px;
     height: 200px;
 }
+
+
+.heart-btn img {
+    width: 20px;
+    height: 20px;
+    display: block;
+    float: right;
+    margin-top: 5px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.date {
+    font-family: 'assistant';
+    color: var(--grey);
+    font-size: 10px;
+    text-align: start;
+    margin-left: 60px;
+    margin-top: 30px;
+    display: flex;
+    margin-bottom: -20px;
+}
+
 
 .blog-wrapper {
     flex-direction: row;
@@ -76,17 +102,21 @@ p {
     margin-bottom: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     padding: 10px;
-    padding-bottom: 70px;
-}
-
-
-
-h1 {
-    color: var(--grey);
     text-align: center;
-    font-family: 'Fredericka the Great', cursive;
 }
 
+.btn {
+    display: block;
+    background: var(--blue);
+    font-family: 'el messiri';
+    color: var(--black);
+    text-decoration: none;
+    padding: 8px 15px;
+    text-align: center;
+    border-radius: 10px;
+    max-width: 100px;
+    margin: 25px auto;
+}
 
 
 /* FORSIDE */
@@ -96,7 +126,7 @@ h1 {
 }
 
 
-.om-os h2{
+.om-os h2 {
     text-align: center;
 
 }
@@ -106,19 +136,19 @@ h1 {
 .ugens-kunstner {}
 
 
-.plan{
-   background-color: var(--light-blue); 
+.plan {
+    background-color: var(--light-blue);
 }
 
-.plan img{
+.plan img {
     display: float;
 
 }
-  
-  
-  
-  
- /*styling af artwork side*/
+
+
+
+
+/*styling af artwork side*/
 body {
     background-color: var(--white);
 }
@@ -134,7 +164,7 @@ body {
     margin-right: 5px;
 }
 
-.tegne{
+.tegne {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -142,11 +172,11 @@ body {
     justify-content: center;
 }
 
-.linie1art img{ 
+.linie1art img {
     padding: 15px;
     width: 422px;
     height: 400px;
-    
+
 }
 
 .artworks_cartoon {
@@ -160,6 +190,38 @@ body {
     margin-top: 50px;
 }
 
+/*navigation*/
+
+.navbar img {
+    width: 200px;
+    height: 150px;
+}
+
+.navbar {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.navbar ul {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    list-style: none;
+}
+
+.navbar li a {
+    display: block;
+    text-decoration: none;
+    padding: 1rem;
+    font-family: 'Optima';
+}
+
 .artworks_digital {
     text-align: center;
     font-family: 'El messiri';
@@ -168,5 +230,6 @@ body {
     padding: 15px;
     margin-left: 5px;
     margin-right: 5px;
+
     margin-top: 50px;
 }
