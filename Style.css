@@ -316,19 +316,68 @@ body{
     font-size: 22px;
 }
 
-.måned{
-    margin-top: 100px;
+.line{
+    width: 100%;
+    height: 45px;
+    position: relative;
+}
+
+.line::after,.line::before{
+    content: '';
+    position: absolute;
+    margin: auto;
+    height: 2px;
+    background: var(--gold);
+    width: 45%;
+    top: 45%;
+}
+
+.lm{
     margin-bottom: 20px;
+}
+.line::after{
+    left:0
+    
+}
+
+.line::before{
+    right: 0;
+}
+
+.måned{
+    margin-top: 80px;
 }
 
 .BEAI p{
-margin-left: 30%;
-margin-right: 30%   ;
+margin-left: 25%;
+margin-right: 25%;
+font-family: 'Assistant';
 }
 
 .BEAI h3{
-    font-family: 'Assistant';
+    font-family: 'El messiri';
     text-align: center;
+    font-size: 40px;
+}
+
+.følg div{
+    display: flex;
+    justify-content: center;
+}
+.følg img{
+    height: 25px;
+    width: 25px;
+    margin-bottom: 80px;
+}
+.følg h2{
+    font-family: 'Fredericka the Great';
+    font-weight: 100;
+    margin-bottom: 10px;
+}
+
+hr {
+    border-color:var(--gold) ;
+    outline: none;
 }
 
 footer div{
